@@ -1,0 +1,41 @@
+# macOS/editor noise
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+credentials.json
+
+# Private/raw research material
+private/
+raw/
+chatgpt-exports/
+codex-sessions/
+transcripts/
+*.jsonl
+
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local experiment outputs; curated results should be copied explicitly
+experiments/local/
+experiments/results-local/
